@@ -42,7 +42,6 @@
 }
 
 .advantage__title {
-  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -50,6 +49,9 @@
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  @media (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .advantage__text {

@@ -205,6 +205,8 @@ body {
 }
 @media (min-width: 768px) {
   .contacts__link {
+    font-size: 12px;
+    line-height: 1.16;
     display: inline-block;
     padding: 0;
   }
@@ -704,7 +706,6 @@ body {
 }
 
 .advantage__title {
-  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -712,6 +713,11 @@ body {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .advantage__title {
+    text-align: center;
+  }
 }
 
 .advantage__text {
@@ -775,7 +781,7 @@ body {
   margin-top: 0;
   margin-bottom: 30px;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .team__title {
     font-size: 36px;
     margin-bottom: 50px;
@@ -1173,6 +1179,11 @@ body {
   .footer__column {
     display: inline-block;
     margin-right: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .footer__column {
+    margin-left: 61px;
   }
 }
 @media (min-width: 1200px) {
