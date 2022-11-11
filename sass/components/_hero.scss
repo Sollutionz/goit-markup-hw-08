@@ -7,31 +7,31 @@
   background-repeat: no-repeat;
   background-size: cover;
   @media (min-width: 320px) {
-    background-image: var(--bg-gradient), url(./images/header-bg-mobile.jpg);
+    background-image: var(--bg-gradient), url(../images/header-bg-mobile.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: var(--bg-gradient),
-        url(./images/header-bg-mobile-2x.jpg);
+        url(../images/header-bg-mobile-2x.jpg);
     }
   }
 
   @media (min-width: 768px) {
-    background-image: var(--bg-gradient), url(./images/header-bg-tablet.jpg);
+    background-image: var(--bg-gradient), url(../images/header-bg-tablet.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: var(--bg-gradient),
-        url(./images/header-bg-tablet-x2.jpg);
+        url(../images/header-bg-tablet-x2.jpg);
     }
   }
   @media (min-width: 1200px) {
     padding: 200px 0;
-    background-image: var(--bg-gradient), url(./images/header-bg-desk.jpg);
+    background-image: var(--bg-gradient), url(../images/header-bg-desk.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: var(--bg-gradient), url(./images/header-bg-desk-2x.jpg);
+      background-image: var(--bg-gradient), url(../images/header-bg-desk-2x.jpg);
     }
   }
 }
